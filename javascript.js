@@ -42,3 +42,8 @@ const btn2 = document.querySelector('#btn2');
 btn2.addEventListener('click', () => {
   alert("Hello World");
 });
+
+const btn3 = document.querySelector('#btn3');
+btn3.addEventListener('click', function (e) {
+    console.log(e);
+  });
