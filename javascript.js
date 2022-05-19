@@ -45,5 +45,5 @@ btn2.addEventListener('click', () => {
 
 const btn3 = document.querySelector('#btn3');
 btn3.addEventListener('click', function (e) {
-    console.log(e);
+    e.target.style.background = 'blue';
   });
